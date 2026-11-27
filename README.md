@@ -197,6 +197,21 @@ When modifying the module:
 5. Verify the Sell and Cancel operations.
 6. Commit and push verified changes to GitHub.
 
+## Final Source Snapshot
+
+The source in this repository has been checked against the final `estate.zip` project archive supplied for this assignment. The Python models, manifest, access-control CSV, initialization files and XML files in the repository match that archive. Generated Python cache files (`__pycache__` and `.pyc`) are intentionally excluded from version control.
+
+### Manifest-loaded files versus additional XML files
+
+The module manifest currently loads these files:
+
+- `security/ir.model.access.csv`
+- `views/estate_property_views.xml`
+- `views/estate_property_offer_views.xml`
+- `views/estate_menus.xml`
+
+The repository also contains `estate_property_tag_views.xml`, `estate_property_type_views.xml` and `res_users_views.xml`. These are present in the source tree but are not listed in the manifest's `data` array. The supplied archive does not include Python model definitions for `estate.property.tag` or `estate.property.type`; the user-inheritance view also has an empty architecture section. They are therefore documented as additional/incomplete files, not as active installed functionality.
+
 ## Current Implementation Notes
 
 Some additional XML files for property types, property tags and user form inheritance are present in the repository.
