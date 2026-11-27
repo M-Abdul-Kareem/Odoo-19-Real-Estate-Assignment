@@ -24,6 +24,10 @@ It provides property list and form views, links offers to properties and contact
 
 The module is maintained in the `estate/` directory and is intended to be added to an existing Odoo 19 installation as a custom addon.
 
+## Project Status
+
+The initial Real Estate addon source has been published to this repository. The repository currently documents the available models, views, access rules and setup approach. A clean-install verification on a separate Odoo 19 environment has not yet been documented as complete.
+
 ## Features
 
 | Feature                | Description                                                                      |
