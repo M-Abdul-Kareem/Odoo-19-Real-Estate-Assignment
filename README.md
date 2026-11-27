@@ -1,6 +1,9 @@
 
-# Odoo 19 — Real Estate Management
+<p align="center">
+  <img src="assets/repository-banner.svg" alt="Odoo 19 Real Estate Management banner" width="100%">
+</p>
 
+# Odoo 19 — Real Estate Management
 <p align="center">
   <strong>A custom Real Estate application module built with the Odoo 19 framework.</strong>
   <br>
