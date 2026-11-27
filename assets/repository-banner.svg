@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<title id="title">Odoo 19 Real Estate Management</title>
+<desc id="desc">Purple architectural banner for the Odoo 19 Real Estate custom module.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#170d25"/><stop offset=".55" stop-color="#3c1850"/><stop offset="1" stop-color="#7c3f8f"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d8a7ff"/><stop offset="1" stop-color="#9b5de5"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8d9ff" stop-opacity=".8"/><stop offset="1" stop-color="#9d72ba" stop-opacity=".18"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect width="1400" height="360" rx="24" fill="url(#bg)"/>
+<path d="M0 292 C210 245 350 365 590 302 S950 245 1400 305" fill="none" stroke="#b76be8" stroke-opacity=".35" stroke-width="2"/>
+<path d="M0 318 C250 260 390 390 650 325 S1050 260 1400 322" fill="none" stroke="#e0aaff" stroke-opacity=".45" stroke-width="3"/>
+<g opacity=".12" stroke="#d9b7ef" fill="none"><path d="M780 0V270M850 0V270M920 0V270M990 0V270M1060 0V270M1130 0V270M1200 0V270M1270 0V270M1340 0V270"/><path d="M760 70H1400M760 140H1400M760 210H1400"/></g>
+<g transform="translate(810 34)">
+  <ellipse cx="350" cy="270" rx="300" ry="28" fill="#c778ed" opacity=".24" filter="url(#glow)"/>
+  <path d="M65 115L340 10 635 112V268H65Z" fill="#21172b" stroke="#d7b4e9" stroke-opacity=".65" stroke-width="3"/>
+  <path d="M65 115L340 10 635 112" fill="none" stroke="#f1d6ff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M115 122L340 42 580 125V267H115Z" fill="url(#glass)" opacity=".8"/>
+  <path d="M115 122V267M270 68V267M430 75V267M580 125V267M115 190H580" stroke="#f4ddff" stroke-opacity=".75" stroke-width="5"/>
+  <path d="M285 267V175Q340 115 395 175V267" fill="#2b1835" stroke="#e8c7fa" stroke-width="4"/>
+  <rect x="145" y="145" width="85" height="44" fill="#f4c6a0" opacity=".42"/>
+  <rect x="450" y="145" width="92" height="44" fill="#f4c6a0" opacity=".38"/>
+  <path d="M0 268H700" stroke="#d7b4e9" stroke-opacity=".7" stroke-width="3"/>
+  <g fill="#f3c88f"><circle cx="95" cy="265" r="5"/><circle cx="615" cy="265" r="5"/><circle cx="500" cy="276" r="4"/></g>
+</g>
+<g transform="translate(64 74)">
+  <path d="M10 90L75 34 140 90V190H10Z" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M55 190V125H95V190" fill="none" stroke="#d9a9f6" stroke-width="8"/>
+  <path d="M32 104H48V120H32ZM103 104H119V120H103Z" fill="#d9a9f6"/>
+</g>
+<text x="245" y="115" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" letter-spacing="3">ODOO <tspan fill="#c78df1">19</tspan></text>
+<text x="245" y="190" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="56" font-weight="800" letter-spacing="1">REAL ESTATE</text>
+<text x="245" y="244" fill="#e9d9f2" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="600" letter-spacing="4">MANAGEMENT</text>
+<text x="245" y="293" fill="#d8c4e5" font-family="Arial,Helvetica,sans-serif" font-size="19">Custom Odoo Addon  •  Property Management  •  Offer Tracking</text>
+<rect x="245" y="316" width="330" height="4" rx="2" fill="url(#accent)"/>
+</svg>
